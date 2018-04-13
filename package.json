@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A simple zero-configuration command-line file server",
   "main": "./lib/file-server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorhsr/file-server.git"
   },
   "keywords": [
     "cli",
