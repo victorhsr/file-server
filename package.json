@@ -1,0 +1,24 @@
+{
+  "name": "file-server",
+  "version": "1.0.0",
+  "description": "A simple zero-configuration command-line file server",
+  "main": "./lib/file-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "command",
+    "file-server",
+    "file"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "urlencode": "^1.1.0"
+  },
+  "bin": {
+    "file-server": "./bin/file-server.js",
+    "fs": "./bin/file-server.js"
+  }
+}
